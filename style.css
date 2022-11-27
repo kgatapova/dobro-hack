@@ -50,7 +50,7 @@ footer {
 }
 
 #main-box {
-    padding: 32px;
+    /*padding: 32px;*/
     display: grid;
     grid-template-columns: 40% 50%;
     gap: 5%;
@@ -61,14 +61,15 @@ footer {
     height: auto;
 }
 
-#documents, #projects {
+/*#documents, #projects, #awards {
     padding: 32px;
-}
+}*/
 
 main {
     display: flex;
     gap: 16px;
     flex-direction: column;
+    padding: 32px;
 }
 
 .project-container {
@@ -141,6 +142,11 @@ main {
     width: 100%;
     height: 3em;
     color: black;
+}
+
+.award img, .award a{
+    width: 300px;
+    height: auto;
 }
     /*position: absolute;
     object-fit: cover;
