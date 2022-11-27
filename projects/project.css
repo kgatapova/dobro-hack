@@ -1,0 +1,18 @@
+main {
+    padding: 32px;
+    display: flex;
+    gap: 32px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 610px;
+    height: 360px;
+}

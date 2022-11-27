@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-auto-rows: 80px 1fr 80px;
+}
+header, footer {
+    background-color: rgb(194, 240, 131);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    padding-right: 32px;
+    align-items: center;
+}
+
+nav a, nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.header-logo {
+    margin-top: 5px;
+    height: 70px;
+    width: auto;
+}
+
+.contact {
+    color: rgb(5, 120, 16);
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 32px;
+}
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-box {
+    padding: 32px;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 5%;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+#documents, #projects {
+    padding: 32px;
+}
+
+main {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    gap: 32px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: flex-start;
+}
+
+.project h3 {
+    background-color: rgb(194, 240, 131);
+}
+
+.project-picture {
+    width: 45%;
+}
+
+.project-picture img {
+    width: 100%;
+    height: auto;
+}
+
+.project-text {
+    width: 50%;
+}
+
+.project a, .project a:visited {
+    display: inline-block;
+    border: solid 2px rgb(194, 240, 131);
+    text-decoration: none;
+    color: black;
+    width: 240px;
+    height: 100%;
+    text-align: center;
+}
+
+.document-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.document {
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+
+.document img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.document p {
+    position: absolute;
+    background-color:  rgb(194, 240, 131);
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 3em;
+    color: black;
+}
+    /*position: absolute;
+    object-fit: cover;
+    object-position: top center;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    border-radius: 15px;
+    opacity: 100%;
+    -webkit-filter: blur(1px);*/
+    /* Safari 6.0 - 9.0 */
+    /*filter: blur(1px); }*/
